@@ -1,0 +1,21 @@
+app:
+  timezone: "Asia/Bangkok"
+  mode: "require_review" # Hoặc accept_all
+
+llm:
+  model: "qwen2.5:7b-instruct"
+  temperature: 0.1
+
+notification:
+  provider: "telegram"
+  telegram_bot_token: "ENV_TELEGRAM_BOT_TOKEN" # Sẽ đọc từ biến môi trường qua python-dotenv
+  telegram_chat_id: "ENV_TELEGRAM_CHAT_ID"     # Sẽ đọc từ biến môi trường qua python-dotenv
+  max_bullets: 10
+
+storage:
+  base_dir: "storage"
+  db_dir: "storage/database"
+  raw_dir: "storage/digests/raw"
+  reports_dir: "storage/digests/reports"
+  log_dir: "storage/logs"
+  retention_days: 7

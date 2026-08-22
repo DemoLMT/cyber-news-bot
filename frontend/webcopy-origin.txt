@@ -1,0 +1,386 @@
+Uri: https://diendanchuyendoiso.gov.vn/
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\index.htm
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/?ky=nam
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\index-4.htm
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/?ky=quy
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\index-3.htm
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/?ky=thang
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\index-2.htm
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/?ky=tuan
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\index-1.htm
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/t07/logo.png
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\t07\logo.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/dang-ky
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\dang-ky.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/dang-nhap
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\dang-nhap.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/dang-nhap?next=%2Fnop-tao-ban-tin
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\dang-nhap-1.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/dien-dan
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\dien-dan.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/lien-he
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\lien-he.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/quen-mat-khau
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\quen-mat-khau.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin/mo-hinh-ho-tro-nguoi-dan-kich-hoat-dinh-danh-dien-tu-muc-2-sk-2026-0002
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin\mo-hinh-ho-tro-nguoi-dan-kich-hoat-dinh-danh-dien-tu-muc-2-sk-2026-0002.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin/quay-dich-vu-cong-truc-tuyen-tu-phuc-vu-tai-bo-phan-mot-cua-sk-2026-0003
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin\quay-dich-vu-cong-truc-tuyen-tu-phuc-vu-tai-bo-phan-mot-cua-sk-2026-0003.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin/so-hoa-va-lam-sach-du-lieu-dan-cu-tai-cong-an-cap-xa-sk-2026-0001
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin\so-hoa-va-lam-sach-du-lieu-dan-cu-tai-cong-an-cap-xa-sk-2026-0001.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin/ung-dung-nhac-lich-va-tra-cuu-tien-do-ho-so-can-cuoc-cu-tru-sk-2026-0004
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin\ung-dung-nhac-lich-va-tra-cuu-tien-do-ho-so-can-cuoc-cu-tru-sk-2026-0004.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin?
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin-2.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin?sort=popular
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin-7.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin?status=APPROVED
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin-5.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin?status=NEEDS_IMPROVEMENT
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin-6.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin?status=NEW
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin-3.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin?status=REVIEWING
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin-4.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin?topic=ung-dung-cong-nghe-trong-cai-cach-thu-tuc-hanh-chinh
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin-1.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin?topic=ung-dung-cong-nghe-trong-cai-cach-thu-tuc-hanh-chinh&sort=popular
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin-12.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin?topic=ung-dung-cong-nghe-trong-cai-cach-thu-tuc-hanh-chinh&status=APPROVED
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin-10.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin?topic=ung-dung-cong-nghe-trong-cai-cach-thu-tuc-hanh-chinh&status=NEEDS_IMPROVEMENT
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin-11.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin?topic=ung-dung-cong-nghe-trong-cai-cach-thu-tuc-hanh-chinh&status=NEW
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin-8.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/tao-ban-tin?topic=ung-dung-cong-nghe-trong-cai-cach-thu-tuc-hanh-chinh&status=REVIEWING
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\tao-ban-tin-9.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/vinh-danh
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\vinh-danh.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/vinh-danh?ky=nam
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\vinh-danh-4.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/vinh-danh?ky=quy
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\vinh-danh-3.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/vinh-danh?ky=thang
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\vinh-danh-2.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/vinh-danh?ky=tuan
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\vinh-danh-1.html
+Content Type: text/html
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/image?url=%2Ft07%2Fbinhdan-app.png&w=1080&q=75
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\binhdan-app.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/image?url=%2Ft07%2Fbinhdan-app.png&w=640&q=75
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\binhdan-app-1.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/image?url=%2Ft07%2Fdataforlife-mascot.png&w=384&q=75
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\dataforlife-mascot-1.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/image?url=%2Ft07%2Fdataforlife-mascot.png&w=640&q=75
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\dataforlife-mascot.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/image?url=%2Ft07%2Fdean06-lotus.png&w=3840&q=75
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\dean06-lotus.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/image?url=%2Ft07%2Femblem-cand.png&w=128&q=75
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\emblem-cand.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/image?url=%2Ft07%2Femblem-cand.png&w=256&q=75
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\emblem-cand-1.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/image?url=%2Ft07%2Femblem-cand.png&w=48&q=75
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\emblem-cand-4.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/image?url=%2Ft07%2Femblem-cand.png&w=64&q=75
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\emblem-cand-3.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/image?url=%2Ft07%2Femblem-cand.png&w=96&q=75
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\emblem-cand-2.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/image?url=%2Ft07%2Flogo.png&w=384&q=75
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\logo-1.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/image?url=%2Ft07%2Flogo.png&w=640&q=75
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\logo.png
+Content Type: image/png
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/117-67ed19cc8320a78f.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\117-67ed19cc8320a78f.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/878-c708da107c64d15f.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\878-c708da107c64d15f.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/964-e43df8d39e956adf.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\964-e43df8d39e956adf.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/972-54f92a6ad8f824f4.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\972-54f92a6ad8f824f4.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/dang-ky/page-11b0d99dcff53e90.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\dang-ky\page-11b0d99dcff53e90.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/dang-nhap/page-a6f9313f0e8393dc.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\dang-nhap\page-a6f9313f0e8393dc.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/layout-bc4d9921cb5e1c81.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\layout-bc4d9921cb5e1c81.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/page-efe58baca1422e7e.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\page-efe58baca1422e7e.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/tao-ban-tin/page-a1ba4354a5e8t076.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\tao-ban-tin\page-a1ba4354a5e8t076.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/vinh-danh/page-8bf6dbca3b573004.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\vinh-danh\page-8bf6dbca3b573004.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/b536a0f1-aeec9509bce6a874.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\b536a0f1-aeec9509bce6a874.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/fd9d1056-10dfaec9b4318f4c.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\fd9d1056-10dfaec9b4318f4c.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/main-app-7c9e16551a2b2141.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\main-app-7c9e16551a2b2141.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/polyfills-42372ed130431b0a.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\polyfills-42372ed130431b0a.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/webpack-7c3d33dd18c15f3e.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\webpack-7c3d33dd18c15f3e.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/css/5535c3a5514bef34.css
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\css\5535c3a5514bef34.css
+Content Type: text/css
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/9ddf1512dbee9c99-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\9ddf1512dbee9c99-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/bed26dc8a57eea87-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\bed26dc8a57eea87-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/cd79e1ff94fa521b-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\cd79e1ff94fa521b-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/e11f95d95ac59fa4-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\e11f95d95ac59fa4-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/e270c9fc4fe96f5a-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\e270c9fc4fe96f5a-s.p.woff2
+Content Type: font/woff2
+
+t Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/dien-dan/[slug]/page-edbdb554732174d8.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\dien-dan\[slug]\page-edbdb554732174d8.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/dien-dan/page-7592b48ee589cc3e.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\dien-dan\page-7592b48ee589cc3e.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/layout-bc4d9921cb5e1c81.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\layout-bc4d9921cb5e1c81.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/page-efe58baca1422e7e.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\page-efe58baca1422e7e.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/quen-mat-khau/page-c6408332663a38fa.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\quen-mat-khau\page-c6408332663a38fa.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/tao-ban-tin/[slug]/page-2fa0c9fd01c51c5d.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\tao-ban-tin\[slug]\page-2fa0c9fd01c51c5d.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/tao-ban-tin/page-a1ba4354a5e8t076.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\tao-ban-tin\page-a1ba4354a5e8t076.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/app/(site)/vinh-danh/page-8bf6dbca3b573004.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\app\(site)\vinh-danh\page-8bf6dbca3b573004.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/b536a0f1-aeec9509bce6a874.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\b536a0f1-aeec9509bce6a874.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/fd9d1056-10dfaec9b4318f4c.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\fd9d1056-10dfaec9b4318f4c.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/main-app-7c9e16551a2b2141.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\main-app-7c9e16551a2b2141.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/polyfills-42372ed130431b0a.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\polyfills-42372ed130431b0a.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/chunks/webpack-7c3d33dd18c15f3e.js
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\chunks\webpack-7c3d33dd18c15f3e.js
+Content Type: application/javascript
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/css/5535c3a5514bef34.css
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\css\5535c3a5514bef34.css
+Content Type: text/css
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/00f4982f357db61e-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\00f4982f357db61e-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/2173e4bb28c315da-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\2173e4bb28c315da-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/25ab8995c98996d7-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\25ab8995c98996d7-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/62a3c74fa0e47362-s.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\62a3c74fa0e47362-s.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/6bb6a9cb68044e10-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\6bb6a9cb68044e10-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/8201559e247ad180-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\8201559e247ad180-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/8247d8d2a376ae43-s.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\8247d8d2a376ae43-s.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/89362aa296165c6d-s.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\89362aa296165c6d-s.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/9a3689a7cda641d2-s.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\9a3689a7cda641d2-s.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/9ddf1512dbee9c99-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\9ddf1512dbee9c99-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/bed26dc8a57eea87-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\bed26dc8a57eea87-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/c6f81e539d11fc99-s.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\c6f81e539d11fc99-s.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/cd79e1ff94fa521b-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\cd79e1ff94fa521b-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/e11f95d95ac59fa4-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\e11f95d95ac59fa4-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://diendanchuyendoiso.gov.vn/_next/static/media/e270c9fc4fe96f5a-s.p.woff2
+File Name: C:\Downloaded Web Sites\diendanchuyendoiso.gov.vn\_next\static\media\e270c9fc4fe96f5a-s.p.woff2
+Content Type: font/woff2
+

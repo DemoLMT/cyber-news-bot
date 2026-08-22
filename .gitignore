@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Dependencies and environments
+node_modules/
+.venv/
+venv/
+backend/cyber-news-bot-main/venv/
+__pycache__/
+*.py[cod]
+
+# Runtime data and logs
+backend/storage/database/*.db
+storage/database/*.db
+backend/storage/logs/*
+backend/storage/digests/raw/*
+backend/storage/digests/reports/*
+storage/logs/*
+storage/digests/raw/*
+storage/digests/reports/*
+
+# Local generated/cache data
+*.tmp
+*.log
+.DS_Store

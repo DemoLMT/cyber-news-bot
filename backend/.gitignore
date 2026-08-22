@@ -1,0 +1,26 @@
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Storage (Keep directory structures but ignore data)
+storage/database/*.db
+storage/digests/raw/*.json
+storage/digests/reports/*
+storage/logs/*
+
+# Exceptions to keep folders in git if needed
+!storage/database/.gitkeep
+!storage/digests/raw/.gitkeep
+!storage/digests/reports/.gitkeep
+!storage/logs/.gitkeep
+
+# Secrets
+.env
+implementation/

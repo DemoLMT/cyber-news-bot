@@ -1,0 +1,21 @@
+# Core Workflow & State Management
+langgraph>=1.2.2
+
+# Database & ORM
+SQLAlchemy>=2.0.50
+
+# Browser Automation & Network Client
+playwright>=1.60.0
+httpx>=0.28.1
+feedparser>=6.0.12
+beautifulsoup4>=4.14.3
+
+# LLM & JSON processing
+pydantic>=2.13.4
+python-dotenv>=1.2.2
+PyYAML>=6.0.3
+pymongo>=4.10.1
+
+# Reporting & Template Rendering
+Jinja2>=3.1.6
+markdown>=3.10.2

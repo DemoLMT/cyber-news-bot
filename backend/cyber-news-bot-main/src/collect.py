@@ -1,0 +1,245 @@
+#!/usr/bin/env python3
+"""Điểm vào chính: thu thập tin, lưu lịch sử, gửi Telegram, sinh trang web.
+
+Cách dùng:
+  python src/collect.py                  # chạy đầy đủ (dùng trong GitHub Actions)
+  python src/collect.py --dry-run        # không gửi Telegram, in digest ra stdout
+  python src/collect.py --test-telegram  # gửi tin nhắn test rồi thoát
+  python src/collect.py --no-telegram --no-site   # chỉ thu thập + lưu
+
+Biến môi trường:
+  TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, SITE_URL, DATA_DIR, SITE_DIR,
+  MAX_ITEMS, LOOKBACK_HOURS
+"""
+from __future__ import annotations
+
+import argparse
+import logging
+import os
+import sys
+from collections import Counter
+import tempfile
+from pathlib import Path
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).resolve().parents[2] / ".env")
+except ImportError:
+    pass
+
+from . import sitegen, telegram
+from .classify import classify, is_vi_security
+from .config import SOURCES
+from .fetchers import fetch_kev, fetch_nvd, fetch_rss
+from .models import NewsItem
+from .store import Store
+from .translate import TranslationCache, translate_text
+
+log = logging.getLogger("collect")
+
+
+def _env_int(name: str, default: int) -> int:
+    try:
+        return int(os.environ.get(name, default))
+    except (TypeError, ValueError):
+        return default
+
+
+def fetch_all(store: Store, lookback_hours: int) -> tuple[list, list]:
+    """Thu thập tất cả nguồn. Trả về (tin mới, danh sách lỗi)."""
+    all_new: list[NewsItem] = []
+    errors: list[str] = []
+    for src in SOURCES:
+        try:
+            if src["type"] == "rss":
+                raw = fetch_rss(src["url"], src["name"])
+            elif src["type"] == "kev":
+                raw = fetch_kev(src["urls"])
+            elif src["type"] == "nvd":
+                raw = fetch_nvd(src["url"], lookback_hours=lookback_hours)
+            else:
+                continue
+            items: list[NewsItem] = []
+            for r in raw:
+                text = f'{r.get("title", "")} {r.get("summary", "")}'
+                if src.get("security_only") and not is_vi_security(text):
+                    continue  # bỏ tin tiếng Việt không liên quan bảo mật
+                items.append(
+                    NewsItem(
+                        source=r["source"],
+                        title=r["title"],
+                        link=r["link"],
+                        published=r["published"],
+                        summary=r.get("summary", ""),
+                        categories=classify(text, src["categories"]),
+                        lang=src["lang"],
+                        extra=r.get("extra", {}),
+                    )
+                )
+            fresh = store.add_new(items)
+            all_new.extend(fresh)
+            log.info("%-22s đọc %2d | mới %2d", src["name"], len(items), len(fresh))
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"{src['name']}: {e}")
+            log.warning("LỖI %s: %s", src["name"], e)
+    return all_new, errors
+
+
+def translate_backfill(store: Store, data_dir: str,
+                       max_per_run: int = 40, delay: float = 0.25,
+                       priority: list | None = None) -> int:
+    """Dịch tiêu đề tiếng Anh -> tiếng Việt.
+
+    Thứ tự ưu tiên:
+      1. Tin mới thu thập kỳ này (đang được gửi Telegram).
+      2. Tin có ngày đăng MỚI NHẤT (khớp thứ tự hiển thị trên trang web).
+    - Có cache nên không dịch lặp lại.
+    - Thất bại thì giữ nguyên tiêu đề gốc, không làm hỏng pipeline.
+    """
+    import time
+
+    cache = TranslationCache(os.path.join(data_dir, "translations.json"))
+    done = 0
+
+    def translate_one(it: NewsItem) -> None:
+        nonlocal done
+        if done >= max_per_run:
+            return
+        if it.lang == "vi" or it.title_vi:
+            return
+        vi = cache.get(it.title)
+        if vi is None:
+            vi = translate_text(it.title)
+            if not vi or vi.lower() == it.title.lower():
+                cache.put(it.title, vi or it.title)  # nhớ để khỏi thử lại
+                return
+            cache.put(it.title, vi)
+            time.sleep(delay)
+        it.title_vi = vi
+        done += 1
+
+    # 1) Tin mới kỳ này trước
+    for it in (priority or []):
+        translate_one(it)
+    # 2) Backfill theo ngày đăng mới nhất
+    for it in sorted(store.items, key=lambda x: x.published, reverse=True):
+        translate_one(it)
+
+    if done:
+        cache.save()
+        store.save()
+        log.info("Đã dịch %d tiêu đề sang tiếng Việt (cache %d)", done, len(cache.data))
+    return done
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description="Cyber News Bot")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="không gửi Telegram, in digest ra stdout")
+    ap.add_argument("--test-telegram", action="store_true",
+                    help="gửi tin nhắn test tới Telegram rồi thoát")
+    ap.add_argument("--no-site", action="store_true", help="không sinh trang web")
+    ap.add_argument("--no-telegram", action="store_true", help="không gửi Telegram")
+    ap.add_argument("--no-translate", action="store_true",
+                    help="tắt dịch tiêu đề sang tiếng Việt")
+    ap.add_argument("--send-latest", action="store_true",
+                    help="gửi lại tối đa 10 tin gần nhất, dùng khi kiểm tra kết nối")
+    args = ap.parse_args()
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+    )
+
+    default_data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))
+    default_site_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "docs"))
+    data_dir = os.environ.get("DATA_DIR", default_data_dir)
+    if args.dry_run:
+        data_dir = tempfile.mkdtemp(prefix="cyber-news-dry-run-")
+    site_dir = os.environ.get("SITE_DIR", default_site_dir)
+    max_items = _env_int("MAX_ITEMS", 4000)
+    lookback = _env_int("LOOKBACK_HOURS", 12)
+    token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "")
+    site_url = os.environ.get("SITE_URL", "")
+
+    if args.test_telegram:
+        if not token or not chat_id:
+            log.error("Cần TELEGRAM_BOT_TOKEN và TELEGRAM_CHAT_ID")
+            return 2
+        try:
+            telegram.send_test(token, chat_id)
+        except Exception as e:  # noqa: BLE001
+            log.error("Gửi tin nhắn test thất bại: %s", e)
+            return 1
+        print("OK: đã gửi tin nhắn test.")
+        return 0
+
+    store = Store(os.path.join(data_dir, "items.json"), max_items=max_items)
+    all_new, errors = fetch_all(store, lookback)
+
+    counts = Counter(it.categories[0] for it in all_new if it.categories)
+    summary = ", ".join(f"{c}={n}" for c, n in counts.most_common())
+    log.info("==> Tin mới kỳ này: %d (%s)", len(all_new), summary or "không có")
+
+    # Dịch tiêu đề tiếng Anh -> tiếng Việt (tắt bằng --no-translate hoặc TRANSLATE=0)
+    translate_on = os.environ.get("TRANSLATE", "1") not in ("0", "false", "False")
+    if not args.no_translate and translate_on:
+        translate_backfill(
+            store,
+            data_dir,
+            max_per_run=_env_int("TRANSLATE_MAX", 40),
+            delay=float(os.environ.get("TRANSLATE_DELAY", "0.25")),
+            priority=all_new,
+        )
+
+    # Sinh trang web
+    if not args.no_site:
+        site_path = os.path.join(site_dir, "index.html")
+        sitegen.generate(store.items, site_path)
+        log.info("Đã sinh trang web: %s (%d tin)", site_path, len(store.items))
+
+    # Gửi Telegram
+    sent = 0
+    telegram_failed = False
+    if not args.no_telegram:
+        if args.dry_run:
+            if all_new:
+                for m in telegram.build_kev_alert(all_new) + telegram.build_messages(all_new, site_url):
+                    print("\n" + "=" * 60 + "\n" + m)
+            else:
+                print("(dry-run) Không có tin mới trong kỳ này.")
+        else:
+            if not token or not chat_id:
+                log.error("Thiếu TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID — không thể gửi")
+                telegram_failed = True
+            elif all_new:
+                try:
+                    sent = telegram.send_digest(token, chat_id, all_new, site_url)
+                    log.info("Đã gửi %d tin nhắn tới Telegram", sent)
+                except Exception as e:  # noqa: BLE001
+                    telegram_failed = True
+                    log.error("Gửi Telegram thất bại: %s", e)
+            elif args.send_latest:
+                try:
+                    sent = telegram.send_digest(token, chat_id, store.items[:10], site_url)
+                    log.info("Đã gửi lại %d tin gần nhất tới Telegram", sent)
+                except Exception as e:  # noqa: BLE001
+                    telegram_failed = True
+                    log.error("Gửi bản tin gần nhất thất bại: %s", e)
+            else:
+                log.info("Không có tin mới — không gửi Telegram (tránh spam).")
+
+    if errors:
+        log.warning("Có %d lỗi nguồn: %s", len(errors), "; ".join(errors))
+    if telegram_failed:
+        log.error("==> FAIL: Telegram lỗi (dữ liệu vẫn đã lưu & trang web đã sinh)")
+        return 1
+    # Exit 1 nếu KHÔNG nguồn nào hoạt động
+    if not all_new and len(errors) >= len(SOURCES):
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

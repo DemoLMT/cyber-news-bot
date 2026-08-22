@@ -1,0 +1,15 @@
+{
+  "name": "website-newpost",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run start-backend",
+    "start-backend": "node backend/server.js",
+    "start-frontend": "node frontend/server.js",
+    "agent-dry": "python backend/scripts/run_agent.py --dry-run",
+    "agent-run": "python backend/scripts/run_agent.py"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

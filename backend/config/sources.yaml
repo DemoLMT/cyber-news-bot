@@ -1,0 +1,43 @@
+sources:
+
+  - id: "vn_cert"
+    name: "VNCERT / AIS"
+    type: "rss"
+    url: "https://www.ais.gov.vn/rss"
+    enabled: true
+    topic: "cybersecurity_vn"
+
+  - id: "mic_vietnam"
+    name: "Bộ Thông tin & Truyền thông (MIC)"
+    type: "rss"
+    url: "https://mic.gov.vn/rss"
+    enabled: true
+    topic: "cybersecurity_vn"
+
+  - id: "thehackernews"
+    name: "The Hacker News"
+    type: "rss"
+    url: "https://feeds.feedburner.com/TheHackersNews"
+    enabled: true
+    topic: "cybersecurity_global"
+
+  - id: "darkreading"
+    name: "Dark Reading"
+    type: "rss"
+    url: "https://www.darkreading.com/rss.xml"
+    enabled: true
+    topic: "cybersecurity_global"
+
+  - id: "krebs"
+    name: "Krebs Security"
+    type: "rss"
+    url: "https://krebsonsecurity.com/feed/"
+    enabled: true
+    topic: "cybersecurity_global"
+
+  - id: "gov_it_news"
+    name: "Gov IT / Digital Government"
+    type: "rss"
+    url: "https://data.gov.vn/rss"
+    enabled: true
+    topic: "gov_security"
