@@ -1,13 +1,16 @@
-# Copy frontend sang docs
-xcopy /s /y frontend docs
+﻿#!/bin/bash
 
-# Đổi tên file htm thành html cho GitHub Pages
-if (Test-Path "docs/index.htm") { Rename-Item "docs/index.htm" "index.html" -Force }
-
-# Sửa nội dung file index để đổi tên trang (Fix hiển thị sai)
-(Get-Content docs/index.html) -replace 'Cổng Sáng kiến Khoa học và Công nghệ', 'Cổng thông tin An ninh mạng T07' -replace 'Cục Cảnh sát quản lý hành chính về trật tự xã hội', 'Học viện Kỹ thuật và Công nghệ an ninh' | Set-Content docs/index.html
-
-# Commit lên GitHub
-git add .
-git commit -m "Fix display branding on GitHub Pages"
-git push origin main
+# Chạy backend để làm việc local
+if [ "$1" == "--dev" ]; then
+    echo "Đang chạy chế độ phát triển..."
+    npm start
+else
+    # Nếu muốn cập nhật giao diện frontend vào docs để up lên GitHub
+    echo "Đang đồng bộ giao diện frontend vào docs để deploy GitHub Pages..."
+    cp -r frontend/* docs/
+    # Nếu có file index.htm (Next.js cũ) thì đổi tên thành index.html cho GitHub hiểu
+    if [ -f "docs/index.htm" ]; then
+        mv docs/index.htm docs/index.html
+    fi
+    echo "Đã cập nhật thư mục docs/. Hãy git commit và push để thay đổi web GitHub."
+fi
